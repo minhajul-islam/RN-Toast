@@ -1,0 +1,5 @@
+rootProject.name = 'sample'
+include ':topup-toast'
+project(':topup-toast').projectDir = new File(rootProject.projectDir, '../node_modules/topup-toast/android')
+
+include ':app'
